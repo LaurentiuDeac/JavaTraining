@@ -39,6 +39,7 @@ public class PersoanaAngajatAbstract extends PersoanaAbstract {
 
     @Override
     void Munceste() {
+        System.out.println("Angajatul " +getNume()+" "+getPrenume()+" munceste.");
 
     }
 
